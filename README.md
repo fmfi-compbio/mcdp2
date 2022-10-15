@@ -1,4 +1,4 @@
-# MCDP2
+# MCDP2 - colocalization analysis for genomic annotations
 ## A tool to compute p-values for number of overlaps or number of shared bases between two genome annotations
 
 ## Install 
