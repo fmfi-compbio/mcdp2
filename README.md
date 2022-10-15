@@ -1,5 +1,5 @@
-# MCDP2 - colocalization analysis for genomic annotations
-## A tool to compute p-values for number of overlaps or number of shared bases between two genome annotations
+# MCDP2 - colocalization analysis for genomic annotations with genomic contexts
+## A tool to compute the significance of enrichment (depletion) between two genomic annotations using number of overlaps or number of shared bases as the test statistic
 
 ## Install 
 
