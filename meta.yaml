@@ -1,0 +1,41 @@
+package:
+    name: "mcdp2"
+    version: "0.0.1"
+
+source:
+    path: .
+
+build:
+    noarch: generic
+    number: 0
+    script: "python -m pip install . --no-deps --ignore-installed -vv"
+
+requirements:
+    build:
+        - python >=3.10
+        - setuptools
+        - pybind11
+    run:
+        - python >=3.10
+        - argh
+        - pybind11
+        - pyyaml
+        - pathos
+        - numpy
+        - numba
+        - scipy
+
+test:
+    commands:
+        - "mcdp2 -h"
+        - "pytest src/tests/"
+    imports:
+        - mcdp2
+    requires:
+        - pytest
+    source_files:
+        - "src/tests/*.py"
+        - "src/tests/mcdp2/*/*.py"
+
+about:
+    summary: "A tool to compute p-values for number of overlaps between two genome annotations"

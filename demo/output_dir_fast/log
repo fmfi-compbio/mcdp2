@@ -1,0 +1,10 @@
+2022-09-15 15:19:17,324 - mcdp2 - INFO - Loading chromosome lengths 'chr_sizes.txt'...
+2022-09-15 15:19:17,325 - mcdp2 - INFO - Loaded 24 chromosome lengths.
+2022-09-15 15:19:17,325 - mcdp2 - INFO - Loading reference 'tcga_intervals.txt'...
+2022-09-15 15:19:17,342 - mcdp2 - INFO - Loaded 6521 raw intervals.
+2022-09-15 15:19:17,344 - mcdp2 - INFO - 6521 of loaded intervals are on the genome.
+2022-09-15 15:19:17,346 - mcdp2 - INFO - 101 disjoint intervals after merging.
+2022-09-15 15:19:17,347 - mcdp2 - INFO - Loading query 'hirt_intervals.txt'...
+2022-09-15 15:19:17,348 - mcdp2 - INFO - Loaded 247 raw intervals.
+2022-09-15 15:19:17,348 - mcdp2 - INFO - 247 of loaded intervals are on the genome.
+2022-09-15 15:19:17,348 - mcdp2 - INFO - 116 disjoint intervals after merging.
