@@ -1,5 +1,5 @@
 # MCDP2
-## A tool to compute p-values for number of overlaps between two genome annotations
+## A tool to compute p-values for number of overlaps or number of shared bases between two genome annotations
 
 ## Install 
 
