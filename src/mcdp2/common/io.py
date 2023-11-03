@@ -335,7 +335,7 @@ def create_context_from_masking(masking_intervals, chromosome_lengths, separate_
         events.append((c, 0, Event.CBEGIN))
         events.append((c, l, Event.CEND))
 
-    result = {c: [] for c in chromosome_lengths}
+    result = {c: [] for c, _ in chromosome_lengths}
     prev_position = None
     for c, pos, e in sorted(events):
         match e:
