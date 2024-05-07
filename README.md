@@ -222,9 +222,7 @@ options:
 
 Please cite this tool as follows:
 
-> Askar Gafurov, Broňa Brejová, Paul Medvedev, 
-> Markov chains improve the significance computation of overlapping genome annotations, 
-> Bioinformatics, Volume 38, Issue Supplement_1, July 2022, Pages i203–i211, https://doi.org/10.1093/bioinformatics/btac255
+> Gafurov, A., Vinař, T., Medvedev, P., & Brejová, B. (2023). Efficient Analysis of Annotation Colocalization Accounting for Genomic Contexts. bioRxiv.
 
 
 
