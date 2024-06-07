@@ -222,7 +222,7 @@ options:
 
 Please cite this tool as follows:
 
-> Gafurov, A., Vinař, T., Medvedev, P., & Brejová, B. (2023). Efficient Analysis of Annotation Colocalization Accounting for Genomic Contexts. bioRxiv.
+> Gafurov, A., Vinař, T., Medvedev, P., Brejová, B. (2024). Efficient Analysis of Annotation Colocalization Accounting for Genomic Contexts. In: Ma, J. (eds) Research in Computational Molecular Biology. RECOMB 2024. Lecture Notes in Computer Science, vol 14758. Springer, Cham. https://doi.org/10.1007/978-1-0716-3989-4_3
 
 
 
