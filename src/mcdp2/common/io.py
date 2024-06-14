@@ -1,4 +1,5 @@
 import re
+import sys
 from collections import defaultdict
 from enum import IntEnum
 
@@ -331,12 +332,15 @@ def create_context_from_masking(masking_intervals, chromosome_lengths, separate_
     for c, b, e in masking_intervals:
         events.append((c, b, Event.BEGIN))
         events.append((c, e, Event.END))
-    for c, l in chromosome_lengths:
+    for c, l in chromosome_lengths.items():
         events.append((c, 0, Event.CBEGIN))
         events.append((c, l, Event.CEND))
 
-    result = {c: [] for c, _ in chromosome_lengths}
+    result = {c: [] for c in chromosome_lengths}
     prev_position = None
+
+    print(events, file=sys.stderr)
+
     for c, pos, e in sorted(events):
         match e:
             case Event.END:
