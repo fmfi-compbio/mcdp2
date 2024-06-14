@@ -11,7 +11,11 @@ python -m pip install .
 mcdp2 --help
 ```
 
-(Anaconda repository will be added in the near future)
+OR, using `conda`:
+
+```shell
+conda install japdlsd::mcdp2
+```
 
 ## Demo
 
