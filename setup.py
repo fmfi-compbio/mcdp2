@@ -8,7 +8,7 @@ ext_modules = [
 
 setup(
     name="mcdp2",
-    version="0.0.1",
+    version="0.0.2",
     author="Askar Gafurov",
     author_email="askar.gafurov@fmph.uniba.sk",
     license="MIT License",

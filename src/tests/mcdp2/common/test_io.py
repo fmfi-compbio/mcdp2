@@ -173,10 +173,10 @@ def test_make_context_intervals_from_records(records, ignore_blocks, expected):
 
 
 @pytest.mark.parametrize("intervals,chromosome_lengths,expected", [
-    ([], {'c1': 10}, {'c1': [('c1_unmasked', 0, 10)]}),
-    ([], {'c1': 10, 'c2': 20},
+    ([], [('c1', 10)], {'c1': [('c1_unmasked', 0, 10)]}),
+    ([], [('c1', 10), ('c2', 20)],
      {'c1': [('c1_unmasked', 0, 10)], 'c2': [('c2_unmasked', 0, 20)]}),
-    ([('c1', 3, 8)], {'c1': 10, 'c2': 20},
+    ([('c1', 3, 8)], [('c1', 10), ('c2', 20)],
      {'c1': [('c1_unmasked', 0, 3), ('c1_masked', 3, 8), ('c1_unmasked', 8, 10)], 'c2': [('c2_unmasked', 0, 20)]}),
 ])
 def test_create_context_from_masking(intervals, chromosome_lengths, expected):
