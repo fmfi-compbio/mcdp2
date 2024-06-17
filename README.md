@@ -1,6 +1,12 @@
 # MCDP2 - colocalization analysis for genomic annotations with genomic contexts
 ## A tool to compute the significance of enrichment (depletion) between two genomic annotations using number of overlaps or number of shared bases as the test statistic
 
+[![Anaconda-Server Badge](
+https://anaconda.org/japdlsd/mcdp2/badges/version.svg)](
+https://anaconda.org/japdlsd/mcdp2/badges/version.svg)
+
+
+
 ## Install 
 
 ```shell
